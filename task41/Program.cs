@@ -6,7 +6,6 @@
 // 1, -7, 567, 89, 223-> 4
 
 Console.Clear();
-
 Console.Write("Введите числа через пробел: ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
